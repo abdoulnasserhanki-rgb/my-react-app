@@ -1,0 +1,17 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Dégradé moderne bleu → violet */
+  background: linear-gradient(135deg, #474848, #bdbec5);
+}
+
+.login-card {
+  width: 400px;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
