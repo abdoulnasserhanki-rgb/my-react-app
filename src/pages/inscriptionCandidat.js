@@ -20,7 +20,7 @@ function InscriptionCandidat({type}) {
   type="candidats"
 
   const [countries, setCountries] = useState([]);
-  const [defaultCountry, setDefaultCountry] = useState("ne"); // Niger par défaut
+  const [defaultCountry, setDefaultCountry] = useState(); // Niger par défaut
 
   // Charger la liste des pays
   useEffect(() => {
